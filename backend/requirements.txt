@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+transformers
+torch
+nltk
+keybert
+whisper
+sentence-transformers
+scikit-learn
+git+https://github.com/openai/whisper.git
