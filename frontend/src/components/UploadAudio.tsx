@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Lottie from "lottie-react";
 import sparkles from "../assets/others/loadingAnimation.json";
-import headphoneIcon from "../assets/images/headphones.png";
+import headphoneIcon from "../assets/icons/headphones.png";
 
 const UploadAudio: React.FC = () => {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -78,7 +78,7 @@ const UploadAudio: React.FC = () => {
         <div className="flex justify-center">
           <label
             htmlFor="audio-upload"
-            className="cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold py-4 px-8 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 flex items-center gap-2"
+            className="cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold py-4 px-8 rounded-md shadow-lg hover:scale-105 transition-transform duration-300 flex items-center gap-2"
           >
             <img src={headphoneIcon} alt="headphone icon" className="w-6 h-6" />
             <span className="text-lg">Upload Meeting Audio</span>
