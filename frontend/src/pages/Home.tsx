@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
       {/* Header */}
       <header className="bg-gray-100 rounded-4xl text-center p-5 px-20 flex justify-between">
         {/* Logo */}
-        <p className="font-ArchivoBlack text-4xl text-blue-900 flex items-center gap-2">
+        <p className="font-ArchivoBlack text-3xl text-blue-900 flex items-center gap-2">
           <img src="/favicon.ico" alt="logo" className="w-10 h-10" />
           MeetingMind
         </p>
@@ -77,7 +77,7 @@ const HomePage: React.FC = () => {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="p-6 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 bg-gradient-to-br from-gray-100 to-gray-100"
+              className="p-6 rounded-2xl shadow-xl/20 hover:shadow-xl transition duration-300 bg-gradient-to-br from-gray-100 to-gray-100"
             >
               <div className="flex justify-center mb-4">
                 <img src={step.icon} alt={`${step.title} icon`} className="w-12 h-12 object-contain" />
