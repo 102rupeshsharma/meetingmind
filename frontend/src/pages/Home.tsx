@@ -55,7 +55,7 @@ const HomePage: React.FC = () => {
       {/* Main Content */}
       <main className="mx-auto flex flex-col-reverse md:flex-row justify-between">
         {/* Left Side */}
-        <div className="w-full md:w-1/2 mt-20 ml-20">
+        <div className="w-full md:w-1/2 mt-15 ml-20">
           <p className="font-ArchivoBlack text-blue-900 text-4xl mt-2 mb-20">
             AI-powered meeting summaries and emotion insights
           </p>

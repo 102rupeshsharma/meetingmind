@@ -72,10 +72,10 @@ const UploadAudio: React.FC = () => {
   return (
     <div className="w-full flex flex-col items-start mb-10 relative">
       {/* Upload UI */}
-      <div className="relative text-center pb-15">
-        <h2 className="text-xl font-bold mb-4">Upload Meeting Audio</h2>
+      <div className="relative text-center">
+        <h2 className="text-xl font-bold mb-4">Let MeetingMind do the thinking – upload your audio!</h2>
 
-        <div className="flex justify-center">
+        <div className="flex">
           <label
             htmlFor="audio-upload"
             className="cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold py-4 px-8 rounded-md shadow-lg hover:scale-105 transition-transform duration-300 flex items-center gap-2"
