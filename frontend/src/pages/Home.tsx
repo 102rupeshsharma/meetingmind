@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
 
         {/* Right Side */}
         <div className="mr-20">
-          <img src={heroImage} alt="AI Meeting Illustration" className="w-140 h-140 object-contain" />
+          <img src={heroImage} alt="AI Meeting Illustration" className="w-150 h-140 object-contain" />
         </div>
       </main>
 
